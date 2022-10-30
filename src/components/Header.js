@@ -1,3 +1,4 @@
+import image from './IMG_4711.JPG'
 const Header = () => {
   return (
     <header className="container">
@@ -14,7 +15,7 @@ const Header = () => {
       </div>
       {/* profile image and social links */}
       <div className="profile">
-        <img src="" id="profile_img" alt="" />
+        <img src={image} id="profile_img" alt="" />
         <div className="profile-links">
           <a target="_blank" href={"https://twitter.com/ChrisPurposec60"}>
             <i className="fab fa-twitter" id="twitter">
