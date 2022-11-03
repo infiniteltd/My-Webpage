@@ -289,3 +289,23 @@ h1 {
   color: #fff;
   transition: o.3s all linear;
 }
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 24px;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1172px;
+  height: 74px;
+  cursor: pointer;
+}

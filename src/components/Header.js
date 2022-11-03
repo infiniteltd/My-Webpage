@@ -64,6 +64,9 @@ const Header = () => {
           Book Design
           <p>Get one book design free from our Zuri team</p>
         </a>
+        <a href="" id="contact">
+          Contact Me
+        </a>
       </div>
     </header>
     
