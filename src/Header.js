@@ -1,3 +1,4 @@
+import React from "react";
 import image from "./IMG_4711.JPG";
 const Header = () => {
   return (
@@ -6,23 +7,37 @@ const Header = () => {
         {/* header links */}
         <h1>Chris Emeka</h1>
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contacts">Contacts</a>
-          <a href="#books">Books</a>
+          <ul>
+            <li>
+              <a href="/Home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <a href="#books">Books</a>
+            </li>
+          </ul>
         </div>
       </div>
       {/* profile image and social links */}
       <div className="profile">
         <img src={image} id="profile_img" alt="" />
+
         <div className="profile-links">
-          <a target="_blank" href="https://twitter.com/ChrisPurposec60">
+          <a target="_blank" href="https://twitter.com/ChrisPurposec60" rel="noopener noreferrer">
             <i className="fab fa-twitter" id="twitter">
               Twitter link
             </i>
           </a>
-          <a target="_blank" href="https://app.slack.com/client/T042F7V19Q8/browse-people/rimeto_profile/U048HMMF5GU">
+
+          <a target="_blank" href="https://app.slack.com/client/T042F7V19Q8/browse-people/rimeto_profile/U048HMMF5GU" rel="noopener noreferrer">
             <i className="fab fa-slack" id="slack">
               Slack Profile
             </i>
@@ -59,8 +74,8 @@ const Header = () => {
           Book Design
           <p>Get one book design free from our Zuri team</p>
         </a>
-        <a href="" id="contact">
-          Contact Me
+        <a href="/contact" id="contact">
+          Contact Us
         </a>
       </div>
     </header>

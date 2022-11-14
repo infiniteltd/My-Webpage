@@ -1,12 +1,23 @@
-import Header from "./components/Header";
+import React from "react";
+import Header from "./Header";
+import Home from "./pages/Home";
 
-function App() {
+
+
+function App () {
+  let component
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home />
+  }
   return (
-    <div className="container">
-      <Header />
-    </div>
-    
-  );
+      <div>
+          <Header /> 
+          {component}
+          
+      </div>
+  )
 }
 
-export default App;
+export default App
+
